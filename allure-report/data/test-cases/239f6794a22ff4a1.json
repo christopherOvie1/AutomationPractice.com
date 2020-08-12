@@ -1,0 +1,82 @@
+{
+  "uid" : "239f6794a22ff4a1",
+  "name" : "user should be able to receive a confirmation message verify",
+  "fullName" : "contact us Test.user should be able to receive a confirmation message verify",
+  "historyId" : "a0009fb5b21384de498c95cc8eb582a7",
+  "time" : {
+    "start" : 1597077845436,
+    "stop" : 1597077858508,
+    "duration" : 13072
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "contact us Test"
+  }, {
+    "name" : "testClass",
+    "value" : "contact us Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "user should be able to receive a confirmation message verify"
+  }, {
+    "name" : "package",
+    "value" : "contact us Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a88594cf34feffb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597077747367,
+        "stop" : 1597077764224,
+        "duration" : 16857
+      }
+    }, {
+      "uid" : "614a5d188333e913",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597077555970,
+        "stop" : 1597077575104,
+        "duration" : 19134
+      }
+    }, {
+      "uid" : "83be8382db2d5e00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597076250991,
+        "stop" : 1597076283770,
+        "duration" : 32779
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "239f6794a22ff4a1.json",
+  "parameterValues" : [ "chrome" ]
+}

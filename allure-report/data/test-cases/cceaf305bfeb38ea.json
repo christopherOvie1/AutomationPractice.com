@@ -1,0 +1,56 @@
+{
+  "uid" : "cceaf305bfeb38ea",
+  "name" : "check that user can login successfully",
+  "fullName" : "login.check that user can login successfully",
+  "historyId" : "f684878e55ff7fc0e5c55c8c33e10507",
+  "time" : {
+    "start" : 1597075273994,
+    "stop" : 1597075315831,
+    "duration" : 41837
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "testMethod",
+    "value" : "check that user can login successfully"
+  }, {
+    "name" : "package",
+    "value" : "login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cceaf305bfeb38ea.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597087106670' stop='1597087117277'>
+    <name>login</name>
+    <title>login</title>
+    <test-cases>
+        <test-case start='1597087106671' status='failed' stop='1597087117274'>
+            <name>check that user can login successfully</name>
+            <title>check that user can login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect window to have title
+                
+                Expected: "My Store"
+                Received: "508 Resource Limit Is Reached"</message>
+                <stack-trace>Error: Expect window to have title
+                
+                Expected: "My Store"
+                Received: "508 Resource Limit Is Reached"
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\LoginTest.js:6:25)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

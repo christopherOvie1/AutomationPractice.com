@@ -1,0 +1,51 @@
+[ {
+  "uid" : "f1eb21ed002a4034",
+  "name" : "check that user can login successfully",
+  "time" : {
+    "start" : 1597077842051,
+    "stop" : 1597077874483,
+    "duration" : 32432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "239f6794a22ff4a1",
+  "name" : "user should be able to receive a confirmation message verify",
+  "time" : {
+    "start" : 1597077845436,
+    "stop" : 1597077858508,
+    "duration" : 13072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a584bb2aed49fcd8",
+  "name" : "user can verify password successfully",
+  "time" : {
+    "start" : 1597076246706,
+    "stop" : 1597076262475,
+    "duration" : 15769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71699f2d66b1c3e2",
+  "name" : "user can verify password successfully",
+  "time" : {
+    "start" : 1597077744055,
+    "stop" : 1597077763121,
+    "duration" : 19066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ce34d0ef79b46ae",
+  "name" : "A visitor to the site should be able to create  an account",
+  "time" : {
+    "start" : 1597077845210,
+    "stop" : 1597077870038,
+    "duration" : 24828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

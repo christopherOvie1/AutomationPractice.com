@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597009320344' stop='1597009346476'>
+    <name>Forgot Oassword</name>
+    <title>Forgot Oassword</title>
+    <test-cases>
+        <test-case start='1597009320345' status='passed' stop='1597009346473'>
+            <name>user can verify password successfully</name>
+            <title>user can verify password successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

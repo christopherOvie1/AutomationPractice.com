@@ -1,0 +1,56 @@
+{
+  "uid" : "cf31a2f2e204851d",
+  "name" : "A visitor to the site should be able to create  an account",
+  "fullName" : "Register test.A visitor to the site should be able to create  an account",
+  "historyId" : "adf047412879206c4e34ab2447f8a55a",
+  "time" : {
+    "start" : 1597072301703,
+    "stop" : 1597072346577,
+    "duration" : 44874
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Register test"
+  }, {
+    "name" : "testClass",
+    "value" : "Register test"
+  }, {
+    "name" : "testMethod",
+    "value" : "A visitor to the site should be able to create  an account"
+  }, {
+    "name" : "package",
+    "value" : "Register test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf31a2f2e204851d.json",
+  "parameterValues" : [ "chrome" ]
+}

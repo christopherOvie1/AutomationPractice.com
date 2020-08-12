@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "user can verify password successfully",
+    "uid" : "a584bb2aed49fcd8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597076246706,
+      "stop" : 1597076262475,
+      "duration" : 15769
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "user can verify password successfully",
+    "uid" : "71699f2d66b1c3e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597077744055,
+      "stop" : 1597077763121,
+      "duration" : 19066
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "check that user can login successfully",
+    "uid" : "f1eb21ed002a4034",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597077842051,
+      "stop" : 1597077874483,
+      "duration" : 32432
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "A visitor to the site should be able to create  an account",
+    "uid" : "1ce34d0ef79b46ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597077845210,
+      "stop" : 1597077870038,
+      "duration" : 24828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "user should be able to receive a confirmation message verify",
+    "uid" : "239f6794a22ff4a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597077845436,
+      "stop" : 1597077858508,
+      "duration" : 13072
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

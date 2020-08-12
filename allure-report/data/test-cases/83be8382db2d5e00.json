@@ -1,0 +1,56 @@
+{
+  "uid" : "83be8382db2d5e00",
+  "name" : "user should be able to receive a confirmation message verify",
+  "fullName" : "contact us Test.user should be able to receive a confirmation message verify",
+  "historyId" : "a0009fb5b21384de498c95cc8eb582a7",
+  "time" : {
+    "start" : 1597076250991,
+    "stop" : 1597076283770,
+    "duration" : 32779
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "contact us Test"
+  }, {
+    "name" : "testClass",
+    "value" : "contact us Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "user should be able to receive a confirmation message verify"
+  }, {
+    "name" : "package",
+    "value" : "contact us Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83be8382db2d5e00.json",
+  "parameterValues" : [ "chrome" ]
+}

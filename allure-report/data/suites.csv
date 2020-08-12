@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 10 17:44:02 BST 2020","Mon Aug 10 17:44:34 BST 2020","32432","","login","","login","check that user can login successfully","check that user can login successfully",""
+"passed","Mon Aug 10 17:44:05 BST 2020","Mon Aug 10 17:44:18 BST 2020","13072","","contact us Test","","contact us Test","user should be able to receive a confirmation message verify","user should be able to receive a confirmation message verify",""
+"passed","Mon Aug 10 17:17:26 BST 2020","Mon Aug 10 17:17:42 BST 2020","15769","","Forgot Oassword","","Forgot Oassword","user can verify password successfully","user can verify password successfully",""
+"passed","Mon Aug 10 17:42:24 BST 2020","Mon Aug 10 17:42:43 BST 2020","19066","","Forgot Password","","Forgot Password","user can verify password successfully","user can verify password successfully",""
+"passed","Mon Aug 10 17:44:05 BST 2020","Mon Aug 10 17:44:30 BST 2020","24828","","Register test","","Register test","A visitor to the site should be able to create  an account","A visitor to the site should be able to create  an account",""

@@ -1,0 +1,90 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Forgot Oassword",
+    "children" : [ {
+      "name" : "user can verify password successfully",
+      "uid" : "a584bb2aed49fcd8",
+      "parentUid" : "c18b124811fe12507c09629cda19fbd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597076246706,
+        "stop" : 1597076262475,
+        "duration" : 15769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c18b124811fe12507c09629cda19fbd7"
+  }, {
+    "name" : "Forgot Password",
+    "children" : [ {
+      "name" : "user can verify password successfully",
+      "uid" : "71699f2d66b1c3e2",
+      "parentUid" : "99fda7de123f0538db8794b198223a14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597077744055,
+        "stop" : 1597077763121,
+        "duration" : 19066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "99fda7de123f0538db8794b198223a14"
+  }, {
+    "name" : "login",
+    "children" : [ {
+      "name" : "check that user can login successfully",
+      "uid" : "f1eb21ed002a4034",
+      "parentUid" : "e294307b5e869e9b2181239eb0874d42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597077842051,
+        "stop" : 1597077874483,
+        "duration" : 32432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "e294307b5e869e9b2181239eb0874d42"
+  }, {
+    "name" : "Register test",
+    "children" : [ {
+      "name" : "A visitor to the site should be able to create  an account",
+      "uid" : "1ce34d0ef79b46ae",
+      "parentUid" : "36ada81eb034c8048899754757a6e3d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597077845210,
+        "stop" : 1597077870038,
+        "duration" : 24828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "36ada81eb034c8048899754757a6e3d0"
+  }, {
+    "name" : "contact us Test",
+    "children" : [ {
+      "name" : "user should be able to receive a confirmation message verify",
+      "uid" : "239f6794a22ff4a1",
+      "parentUid" : "13826fe4d9dfec5eb6f9f08e5bb3061e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597077845436,
+        "stop" : 1597077858508,
+        "duration" : 13072
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "13826fe4d9dfec5eb6f9f08e5bb3061e"
+  } ]
+}

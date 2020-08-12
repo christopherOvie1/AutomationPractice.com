@@ -1,0 +1,56 @@
+{
+  "uid" : "f318920349a48e0a",
+  "name" : "user can verify password successfully",
+  "fullName" : "Forgot Oassword.user can verify password successfully",
+  "historyId" : "1fa42a22274f7f133fc7bf5161320da0",
+  "time" : {
+    "start" : 1596937175970,
+    "stop" : 1596937191845,
+    "duration" : 15875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forgot Oassword"
+  }, {
+    "name" : "testClass",
+    "value" : "Forgot Oassword"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can verify password successfully"
+  }, {
+    "name" : "package",
+    "value" : "Forgot Oassword"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f318920349a48e0a.json",
+  "parameterValues" : [ "chrome" ]
+}

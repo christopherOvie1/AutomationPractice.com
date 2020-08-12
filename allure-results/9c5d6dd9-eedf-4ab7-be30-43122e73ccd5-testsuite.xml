@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597071695718' stop='1597071695740'>
+    <name>Register test</name>
+    <title>Register test</title>
+    <test-cases>
+        <test-case start='1597071695718' status='broken' stop='1597071695738'>
+            <name>A visitor to the site should be able to create  an account</name>
+            <title>A visitor to the site should be able to create  an account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.baseUrl is not a function</message>
+                <stack-trace>TypeError: browser.baseUrl is not a function
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\RegisterTest.js:14:17)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

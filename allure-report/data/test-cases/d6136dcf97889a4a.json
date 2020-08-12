@@ -1,0 +1,58 @@
+{
+  "uid" : "d6136dcf97889a4a",
+  "name" : "A visitor to the site should be able to create  an account",
+  "fullName" : "Register test.A visitor to the site should be able to create  an account",
+  "historyId" : "adf047412879206c4e34ab2447f8a55a",
+  "time" : {
+    "start" : 1597071695718,
+    "stop" : 1597071695738,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.baseUrl is not a function",
+  "statusTrace" : "TypeError: browser.baseUrl is not a function\n                    at Context.<anonymous> (C:\\Automation\\Javascript\\webdriverio-test\\test\\specs\\RegisterTest.js:14:17)\n                    at Context.executeSync (C:\\Automation\\Javascript\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Automation\\Javascript\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Register test"
+  }, {
+    "name" : "testClass",
+    "value" : "Register test"
+  }, {
+    "name" : "testMethod",
+    "value" : "A visitor to the site should be able to create  an account"
+  }, {
+    "name" : "package",
+    "value" : "Register test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6136dcf97889a4a.json",
+  "parameterValues" : [ "chrome" ]
+}
