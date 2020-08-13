@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597297006207' stop='1597297010465'>
+    <name>Order Transaction test</name>
+    <title>Order Transaction test</title>
+    <test-cases>
+        <test-case start='1597297006207' status='failed' stop='1597297010463'>
+            <name>A visitor to the site should be able to complete order transaction</name>
+            <title>A visitor to the site should be able to complete order transaction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'My Store' to equal '/index.php'</message>
+                <stack-trace>AssertionError: expected 'My Store' to equal '/index.php'
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\CompleteOrderTransactionTest.js:17:25)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

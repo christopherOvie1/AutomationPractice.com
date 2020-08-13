@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597245462242' stop='1597245471554'>
+    <name>Order Transaction test</name>
+    <title>Order Transaction test</title>
+    <test-cases>
+        <test-case start='1597245462242' status='passed' stop='1597245471553'>
+            <name>A visitor to the site should be able to complete order transaction</name>
+            <title>A visitor to the site should be able to complete order transaction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

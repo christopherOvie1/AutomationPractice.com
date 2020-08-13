@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597350429873' stop='1597350437387'>
+    <name>loginTest</name>
+    <title>loginTest</title>
+    <test-cases>
+        <test-case start='1597350429874' status='broken' stop='1597350437386'>
+            <name>check that user login successfully</name>
+            <title>check that user login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: should</message>
+                <stack-trace>Error: Invalid Chai property: should
+                    at Object.proxyGetter [as get] (C:\Automation\Javascript\webdriverio-test\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at loginPage.login (C:\Automation\Javascript\webdriverio-test\test\PageObjects\loginPage.js:18:36)
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\NewLoginTest.js:12:19)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
