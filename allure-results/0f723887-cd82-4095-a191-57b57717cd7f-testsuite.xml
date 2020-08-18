@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597753592090' stop='1597753613642'>
+    <name>New Register Test</name>
+    <title>New Register Test</title>
+    <test-cases>
+        <test-case start='1597753592091' status='broken' stop='1597753613638'>
+            <name>check that user can register with ease</name>
+            <title>check that user can register with ease</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call selectByIndex on element with selector "#days" because element wasn't found</message>
+                <stack-trace>Error: Can't call selectByIndex on element with selector "#days" because element wasn't found
+                    at implicitWait (C:\Automation\Javascript\webdriverio-test\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Automation\Javascript\webdriverio-test\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at registerPage.registerTest (C:\Automation\Javascript\webdriverio-test\test\PageObjects\registerPage.js:30:32)
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\NewRegisterTest.js:15:22)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

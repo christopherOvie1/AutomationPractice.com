@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597672079059' stop='1597672107393'>
+    <name>New Register Test</name>
+    <title>New Register Test</title>
+    <test-cases>
+        <test-case start='1597672079059' status='broken' stop='1597672107389'>
+            <name>check that user can register with ease</name>
+            <title>check that user can register with ease</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'emailButton' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'emailButton' of undefined
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\NewRegisterTest.js:15:26)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597524169170' stop='1597524174463'>
+    <name>New loginTest</name>
+    <title>New loginTest</title>
+    <test-cases>
+        <test-case start='1597524169172' status='broken' stop='1597524174461'>
+            <name>check that user login with ease</name>
+            <title>check that user login with ease</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.signInBtn is not a function</message>
+                <stack-trace>TypeError: this.signInBtn is not a function
+                    at homePage.sign (C:\Automation\Javascript\webdriverio-test\test\PageObjects\homePage.js:9:14)
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\NewLoginTest.js:11:18)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
