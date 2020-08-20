@@ -11,11 +11,7 @@
 //         expect(browser).toHaveTitle('My Store');
 //         homePage.sign();
 //         loginPage.login('davin.riches@gmail.com','Friday24');
-//         //loginPage.loginWithRandomEmail();
 //
-//        //const message=  loginPage.messageText.getText();
-//        // console.log(message);
-//        // expectChai(message).to.equals('Welcome to your account. Here you can manage all of your personal information and orders.');
 //
 //     })
 //

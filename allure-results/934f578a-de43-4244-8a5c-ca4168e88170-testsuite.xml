@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597776453744' stop='1597776478682'>
+    <name>New loginTest</name>
+    <title>New loginTest</title>
+    <test-cases>
+        <test-case start='1597776453746' status='broken' stop='1597776478681'>
+            <name>check that user login with ease</name>
+            <title>check that user login with ease</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "#center_column > p" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "#center_column > p" because element wasn't found
+                    at implicitWait (C:\Automation\Javascript\webdriverio-test\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Automation\Javascript\webdriverio-test\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at loginPage.login (C:\Automation\Javascript\webdriverio-test\test\PageObjects\loginPage.js:19:47)
+                    at Context.&lt;anonymous> (C:\Automation\Javascript\webdriverio-test\test\specs\NewLoginTest.js:13:19)
+                    at Context.executeSync (C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Automation\Javascript\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

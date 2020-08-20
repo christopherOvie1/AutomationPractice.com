@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597782892657' stop='1597782907799'>
+    <name>New Register Test</name>
+    <title>New Register Test</title>
+    <test-cases>
+        <test-case start='1597782892658' status='passed' stop='1597782907798'>
+            <name>check that user can register with ease</name>
+            <title>check that user can register with ease</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
